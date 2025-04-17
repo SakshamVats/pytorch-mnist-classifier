@@ -92,12 +92,6 @@ your_project_name/
 └── requirements.txt        # (Optional) List of project dependencies
 ```
 
-You can create a `requirements.txt` file by running:
-
-```bash
-pip freeze > requirements.txt
-```
-
 ## Model
 
 The project uses a simple feedforward neural network with three fully connected layers. The architecture is defined in both `mnist.py` and `draw_predict.py`. The training script saves the model with the best validation accuracy to `MNIST/mnist_model_best.pth`.
@@ -105,10 +99,6 @@ The project uses a simple feedforward neural network with three fully connected 
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
-
-## License
-
-[Specify your project license here, e.g., MIT License](https://opensource.org/licenses/MIT)
 
 ## Acknowledgments
 
