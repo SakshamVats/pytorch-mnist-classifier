@@ -88,7 +88,7 @@ Draw a digit on the white canvas and click "Predict" to see the result. Use "Sho
 ## 🗂️ Project Structure
 
 ```
-your_project_name/
+pytorch-mnist-classifier/
 ├── MNIST/
 │   ├── data/               # MNIST dataset
 │   ├── mnist.py            # Training script
@@ -97,24 +97,6 @@ your_project_name/
 ├── README.md             # This file
 └── requirements.txt        # (Optional) Dependencies list
 ```
-
----
-
-## 🖼️ Example
-
-Here's a glimpse of the drawing interface:
-
-```
-![Drawing Canvas Example](images/drawing_canvas.png)
-```
-
-And a prediction in action:
-
-```
-![Prediction Example](images/prediction_result.png)
-```
-
-_(Remember to replace `images/drawing_canvas.png` and `images/prediction_result.png` with the actual paths to your images.)_
 
 ---
 
