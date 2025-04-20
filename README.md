@@ -42,8 +42,8 @@ pip install Pillow
 1.  Clone the repository:
 
     ```bash
-    git clone [YOUR_REPOSITORY_URL]
-    cd [YOUR_REPOSITORY_NAME]
+    git clone https://github.com/SakshamVats/pytorch-mnist-net/
+    cd pytorch-mnist-net
     ```
 
 2.  (Optional) Create a virtual environment:
@@ -88,7 +88,7 @@ Draw a digit on the white canvas and click "Predict" to see the result. Use "Sho
 ## 🗂️ Project Structure
 
 ```
-pytorch-mnist-classifier/
+pytorch-mnist-net/
 ├── MNIST/
 │   ├── data/               # MNIST dataset
 │   ├── mnist.py            # Training script
